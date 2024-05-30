@@ -1,0 +1,58 @@
+body{ 
+    background-color:midnightblue;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: auto;
+    margin-top: 1em;
+    font-size: 3em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1em;
+    flex-wrap: wrap;
+}
+
+#image1{
+    display: block;
+    width: 40%;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 50%;
+    justify-content: center;
+    align-self: center;
+    margin-top: 7%;
+}
+
+.knoppen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:50px 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-top: 7%;
+}
+
+ .knoppen button{
+    width: 10%;
+    height: auto;
+    border-width: 7px;
+} 
+
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: auto;
+    margin-top: 17em;
+    margin-right: 0.7em;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: row-reverse;
+}
